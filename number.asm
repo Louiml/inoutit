@@ -1,5 +1,5 @@
 section .data
-    buffer: times 10 db 0 ; buffer to hold user input
+    buffer: times 10 db 0
     input_prompt db "Enter a number: ",0
     output_prompt db "You entered: ",0
     error_prompt db "Invalid input. Only numbers are allowed", 0
